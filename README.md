@@ -28,17 +28,22 @@ So there are total 3 sub-problem to solve the given problem.
 <br><br> 
     > Directory structure of **CLIENT**:-<br>
 
-        + client
-            - public
+        // + refer as close folder
+        // - refer as open folder
+        // > refer as file
+        
+        
+        - client
+            + public
             - src 
-                + components
-                    - ConfirmOrder.js
-                    - Form.js
-                + App.css
-                + App.js
+                - components
+                    > ConfirmOrder.js
+                    > Form.js
+                > App.css
+                > App.js
                 (rest files)
-            - package-lock.json
-            - package.json<br>
+            > package-lock.json
+            > package.json<br>
     <br>
 
 2.  **<ins>Building REST API(Express.js)</ins>** :-  
@@ -54,18 +59,23 @@ So there are total 3 sub-problem to solve the given problem.
 
     > Directory structure of **SERVER**:-
 
-            + server<br>
+            // + refer as close folder
+            // - refer as open folder
+            // > refer as file
+            
+            
+            - server
                 - controllers
-                    + UserController.js
+                    > UserController.js
                 - db
-                    + database.js
+                    > database.js
                 - models
-                    + UserModel.js
+                    > UserModel.js
                 - routes
-                    + UserRoute.js
-                - index.js
-                - package-lock.json
-                - package.json
+                    > UserRoute.js
+                > index.js
+                > package-lock.json
+                > package.json
 
 <br>
 <br>
