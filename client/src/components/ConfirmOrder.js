@@ -19,7 +19,7 @@ const ConfirmOrder = () => {
       console.log(data);
       if (data.status === 201) {
         await addToast(data.data.message, {
-          appearance: "error",
+          appearance: "success",
           autoDismiss: true,
         });
         history("/")
